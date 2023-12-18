@@ -1,0 +1,18 @@
+.container3 {
+  background-color: cadetblue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  &__header {
+    background-color: blue;
+    height: 60px;
+  }
+  &__body {
+    display: flex;
+    background-color: aqua;
+    flex-grow: 1;
+    &__nav {
+      background-color: crimson;
+    }
+  }
+}

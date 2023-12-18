@@ -1,3 +1,22 @@
+$dark-background: #1d1d1f;
+.container2 {
+  position: relative;
+  &__btn2 {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 20px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: 0px solid transparent;
+    border-radius: 5px;
+  }
+  &__btn2-dark {
+    background-color: $dark-background;
+  }
+}
+
 .App {
   text-align: center;
 }

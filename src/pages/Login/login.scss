@@ -1,9 +1,48 @@
 .background {
-  background-image: url("images/home2.jpg");
-  background-color: #cccccc;
-  height: 500px;
+  background-image: url("../../images/home.jpg");
+  background-color: #09070789;
+  height: 100vh;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 110px;
+
+  &__img {
+    width: 350px;
+  }
+
+  &__container {
+    background-color: white;
+    width: 440px;
+    // height: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    padding: 3rem;
+    margin: 0;
+    &__img {
+      width: 100%;
+    }
+  }
+
+  &__container-dark {
+    background-color: #1d1d1f;
+    color: white;
+  }
+}
+
+.input-container {
+  margin: 20px 0px;
+}
+.btn,
+.btn:focus,
+.btn:hover {
+  background-color: #3ee8a9;
+  border-radius: 0.375rem;
+  width: 100%;
+  margin: 30px 0px;
 }
